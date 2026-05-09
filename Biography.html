@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #ffe6f0 0%, #f0e6ff 50%, #e6f0ff 100%);
+            color: #4a4a4a;
+        }
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            border: 3px solid #d4a5d4;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        main::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            border: 2px dashed #b8a5d4;
+            border-radius: 8px;
+            pointer-events: none;
+        }
+        header h1 {
+            margin-top: 0;
+            font-size: 2.5rem;
+            color: #8b5a8b;
+            text-align: center;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        header p {
+            text-align: center;
+            color: #6b6b6b;
+            font-style: italic;
+        }
+        h2 {
+            margin-bottom: 12px;
+            color: #7a5a7a;
+            font-size: 1.4rem;
+            border-bottom: 2px solid #d4a5d4;
+            padding-bottom: 8px;
+        }
+        p {
+            margin-bottom: 18px;
+            color: #5a5a5a;
+        }
+        .bio-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .bio-list li {
+            margin-bottom: 12px;
+            background: #f9f0ff;
+            padding: 12px 14px;
+            border-radius: 8px;
+            border: 1px solid #e6d4e6;
+        }
+        .bio-list strong {
+            color: #8b5a8b;
+        }
+        .pill-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 12px 18px;
+            border-radius: 20px;
+            background: linear-gradient(45deg, #d4a5d4, #a5d4d4);
+            color: #fff;
+            text-decoration: none;
+            border: 2px solid #b8a5d4;
+            transition: transform 0.2s ease;
+        }
+        .pill-link:hover {
+            transform: translateY(-2px);
+        }
+        .card {
+            margin-bottom: 22px;
+            padding: 18px;
+            border-radius: 12px;
+            background: #fff0f6;
+            border: 2px solid #f0d4f0;
+        }
+        .tag {
+            display: inline-block;
+            margin-bottom: 14px;
+            padding: 4px 10px;
+            border-radius: 12px;
+            background: #e6d4e6;
+            color: #7a5a7a;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>MEEE</h1>
+            <p>Yaho, that’s just my biography. Nothing important :p</p>
+        </header>
+
+        <div class="card">
+            <span class="tag">bio</span>
+            <p>:p i like Ado and Potatoes.</p>
+        </div>
+
+        <section>
+            <h2>My Biography</h2>
+            <p>Yaho, you can call me Juu for now. I'm 17. I don't have anything to say about what I like or what I'm doing right now because I don't care about this, but I'm trying to make a life for myself.</p>
+            <p>I'm going to write random stuff that comes to my mind here about what I'm doing, so get to it.</p>
+        </section>
+
+        <section>
+            <h2>About Me</h2>
+            <ul class="bio-list">
+                <li><strong>Name:</strong> Juu (for now)</li>
+                <li><strong>Interests:</strong> Family, food, games, my friends, and comfort</li>
+                <li><strong>Goal:</strong> make a life for myself</li>
+                <li><strong>Right now:</strong> ignoring my professor and doing whatever my chat says I can do</li>
+            </ul>
+        </section>
+
+        <footer>
+            <div style="text-align: left; margin-bottom: 10px;">
+                <img src="kobeniheaven.jpg" alt="My photo" style="max-width: 150px; border-radius: 8px;">
+                <br>
+                <small>Here is where i will get all the images i will use.: <medium>Image source: <a href="https://danbooru.donmai.us">Danbooru</a></medium></small>
+              <p style="color: rgb(5, 0, 0); font-family: Verdana, Geneva, Tahoma, sans-serif;">Just a reminder that on this site NSFW is a normal thing so be careful :p</p>
+            </div>
+            <p><a class="pill-link" href="index.html">Back to the START :p</a></p>
+        </footer>
+    </main>
+</body>
+</html>
